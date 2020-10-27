@@ -6,8 +6,8 @@ Collection of Jupyter notebooks to run landscape elevation models with a biodive
 
 The notebooks rely on two main scientific software:
 
-1-  [badlands]https://badlands.readthedocs.io/en/latest/) provided within the docker container below,
-2- [circuitscape](https://circuitscape.org) that will need to be downloaded in addition to the container
+1.  [badlands]https://badlands.readthedocs.io/en/latest/) provided within the docker container below,
+2. [circuitscape](https://circuitscape.org) that will need to be downloaded in addition to the container
 
 
 ## Container
