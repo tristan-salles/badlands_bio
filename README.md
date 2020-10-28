@@ -14,13 +14,13 @@ The notebooks rely on two main scientific software:
 
 In addition, several libraries and scripts are required and have been packaged in a Docker container. So on top of the notebooks available in this repository it is recommended to download the following container:
 
-+ [geodels/gospl:gmt](https://hub.docker.com/layers/geodels/gospl/gmt/images/sha256-d295a158bed668f8d4520528a49e6fe0a72294932ea999d6e5b74cbe73ccfd67?context=repo)
++ [geodels/gospl:bio](https://hub.docker.com/layers/geodels/gospl/bio/images/sha256-98901c380d2ffd3b6b3f2f76f5df07c71fd4f90c9661ab2e33036cbd179331ef?context=repo)
 
 ### Pulling the image
 
 Once you have installed Docker on your system, you can pull the image as follow:
 
-`docker pull geodels/gospl:gmt`
+`docker pull geodels/gospl:bio`
 
 You can list all the images available on your system as follow:
 
@@ -34,13 +34,13 @@ An image can be deleted as follow:
 
 You can then start a docker container (an instance of an image):
 
-`docker run -d --name my_container -p 8888:8888 -v my_vol:/live/share geodels/gospl:gmt`
+`docker run -d --name my_container -p 8888:8888 -v my_vol:/live/share geodels/gospl:bio`
    
 You can access the container via your browser at the following address: http://localhost:8888
 
 It is also possible to `ssh` into the container as follow:
 
-`docker run -it -v my_vol:/live/share  --entrypoint /bin/bash geodels/gospl:gmt`
+`docker run -it -v my_vol:/live/share  --entrypoint /bin/bash geodels/gospl:bio`
 
 You can list the containers currently existing on your machine by running:
 
